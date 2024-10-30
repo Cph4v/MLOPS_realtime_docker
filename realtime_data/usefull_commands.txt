@@ -1,0 +1,7 @@
+
+### run code
+tmux 
+tmux ls
+tmux attach -d -t 0
+python -m jupyter nbconvert --execute --to notebook realtime.ipynb
+

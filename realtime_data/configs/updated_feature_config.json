@@ -1,0 +1,784 @@
+{
+     "NOT_SYMBOL": {
+          "fe_time": [
+               "fe_time_isin_New_York",
+               "fe_time_day_of_week",
+               "fe_time_day_of_year",
+               "fe_time_isin_Tokyo",
+               "fe_time_day_of_month",
+               "fe_time_quarter_start",
+               "fe_time_quarter_end",
+               "fe_time_quarter",
+               "fe_time_week",
+               "fe_time_month",
+               "fe_time_semester",
+               "fe_time_month_start",
+               "fe_time_isin_London",
+               "fe_time_year_end",
+               "fe_time_hour",
+               "fe_time_month_end",
+               "fe_time_minute",
+               "fe_time_year_start",
+               "fe_time_isin_Sydney"
+          ]
+     },
+     "EURUSD": {
+          "base_candle_timeframe": [
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_ATR": {
+               "timeframe": [
+                    240,
+                    60
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE",
+                    "HIGH",
+                    "LOW"
+               ]
+          },
+          "fe_EMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    336,
+                    60,
+                    1440,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSI": {
+               "timeframe": [
+                    240,
+                    60,
+                    5
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSTD": {
+               "timeframe": [
+                    240
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_SMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    240,
+                    480,
+                    720
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_WIN": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    5,
+                    10,
+                    48,
+                    288,
+                    480
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_cndl": [
+               5,
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_cndl_shift": {
+               "columns": [
+                    "OPEN",
+                    "HIGH",
+                    "LOW",
+                    "CLOSE"
+               ],
+               "shift_configs": [
+                    {
+                         "timeframe": 30,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 60,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 240,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 15,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 5,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 1440,
+                         "shift_sizes": [
+                              1
+                         ]
+                    }
+               ]
+          },
+          "fe_ratio": {
+               "ATR": {
+                    "timeframe": [
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "EMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              60
+                         ],
+                         [
+                              60,
+                              1440
+                         ]
+                    ]
+               },
+               "RSI": {
+                    "timeframe": [
+                         5,
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "RSTD": {
+                    "timeframe": [
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "SMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              240,
+                              720
+                         ],
+                         [
+                              480,
+                              720
+                         ]
+                    ]
+               }
+          }
+     },
+     "USDJPY": {
+          "base_candle_timeframe": [
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_ATR": {
+               "timeframe": [
+                    240,
+                    60
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE",
+                    "HIGH",
+                    "LOW"
+               ]
+          },
+          "fe_EMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    336,
+                    60,
+                    1440,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSI": {
+               "timeframe": [
+                    240,
+                    60,
+                    5
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSTD": {
+               "timeframe": [
+                    240
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_SMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    240,
+                    480,
+                    720
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_WIN": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    5,
+                    10,
+                    48,
+                    288,
+                    480
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_cndl": [
+               5,
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_cndl_shift": {
+               "columns": [
+                    "OPEN",
+                    "HIGH",
+                    "LOW",
+                    "CLOSE"
+               ],
+               "shift_configs": [
+                    {
+                         "timeframe": 30,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 60,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 240,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 15,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 5,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 1440,
+                         "shift_sizes": [
+                              1
+                         ]
+                    }
+               ]
+          },
+          "fe_ratio": {
+               "ATR": {
+                    "timeframe": [
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "EMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              60
+                         ],
+                         [
+                              60,
+                              1440
+                         ]
+                    ]
+               },
+               "RSI": {
+                    "timeframe": [
+                         5,
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "RSTD": {
+                    "timeframe": [
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "SMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              240,
+                              720
+                         ],
+                         [
+                              480,
+                              720
+                         ]
+                    ]
+               }
+          }
+     },
+     "XAUUSD": {
+          "base_candle_timeframe": [
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_ATR": {
+               "timeframe": [
+                    240,
+                    60
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE",
+                    "HIGH",
+                    "LOW"
+               ]
+          },
+          "fe_EMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    336,
+                    60,
+                    1440,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSI": {
+               "timeframe": [
+                    240,
+                    60,
+                    5
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_RSTD": {
+               "timeframe": [
+                    240
+               ],
+               "window_size": [
+                    30,
+                    14,
+                    7
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_SMA": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    240,
+                    480,
+                    720
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_WIN": {
+               "timeframe": [
+                    5
+               ],
+               "window_size": [
+                    5,
+                    10,
+                    48,
+                    288,
+                    480
+               ],
+               "base_columns": [
+                    "CLOSE"
+               ]
+          },
+          "fe_cndl": [
+               5,
+               15,
+               30,
+               60,
+               240,
+               1440
+          ],
+          "fe_cndl_shift": {
+               "columns": [
+                    "OPEN",
+                    "HIGH",
+                    "LOW",
+                    "CLOSE"
+               ],
+               "shift_configs": [
+                    {
+                         "timeframe": 30,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 60,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 240,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 15,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 5,
+                         "shift_sizes": [
+                              1
+                         ]
+                    },
+                    {
+                         "timeframe": 1440,
+                         "shift_sizes": [
+                              1
+                         ]
+                    }
+               ]
+          },
+          "fe_ratio": {
+               "ATR": {
+                    "timeframe": [
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "EMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              60
+                         ],
+                         [
+                              60,
+                              1440
+                         ]
+                    ]
+               },
+               "RSI": {
+                    "timeframe": [
+                         5,
+                         60,
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "RSTD": {
+                    "timeframe": [
+                         240
+                    ],
+                    "window_size": [
+                         [
+                              7,
+                              14
+                         ],
+                         [
+                              7,
+                              30
+                         ]
+                    ]
+               },
+               "SMA": {
+                    "timeframe": [
+                         5
+                    ],
+                    "window_size": [
+                         [
+                              240,
+                              720
+                         ],
+                         [
+                              480,
+                              720
+                         ]
+                    ]
+               }
+          }
+     }
+}
